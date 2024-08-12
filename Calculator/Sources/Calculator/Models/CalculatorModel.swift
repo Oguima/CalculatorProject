@@ -38,7 +38,7 @@ class CalculatorModel: CalculatorModelProtocol {
         
         previousInput = currentInput
         currentOperation = operation
-        currentInput = input
+        currentInput = "0"
         
         return currentInput
     }

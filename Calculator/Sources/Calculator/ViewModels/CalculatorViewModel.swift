@@ -40,6 +40,26 @@ class CalculatorViewModel: CalculatorViewModelProtocol {
             model.performOperation(model.getCurrentOperation(), with: model.getCurrentInput())
             delegate?.didUpdateDisplay(with: model.getCurrentInput())
             model.reset()
+        case "AC":
+            model.reset()
+            model.updateCurrentInput("0")
+            delegate?.didUpdateDisplay(with: model.getCurrentInput())
+        case "+/-":
+            let input = model.getCurrentInput()
+            if let result = Double(input) {
+                model.reset()
+                let calculation = result * -1
+                model.updateCurrentInput(calculation.description)
+                delegate?.didUpdateDisplay(with: model.getCurrentInput())
+            }
+        case "%":
+            let input = model.getCurrentInput()
+            if let result = Double(input) {
+                model.reset()
+                let calculation = result / 100
+                model.updateCurrentInput(calculation.description)
+                delegate?.didUpdateDisplay(with: model.getCurrentInput())
+            }
         default:
             break
         }

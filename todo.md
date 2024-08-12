@@ -56,3 +56,14 @@ mkdir -p Tests/UIComponentsTests
 
 mkdir -p Sources/CalculatorAPP
 mkdir -p Tests/CalculatorAPPTests
+
+--------------
+
+```mermaid
+graph TD;
+    CalculatorAPP-->Calculator;
+    Calculator-->DesignSystem;
+    Calculator-->UIComponents;
+    UIComponents-->DesignSystem;
+```
+
