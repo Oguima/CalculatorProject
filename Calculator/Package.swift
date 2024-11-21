@@ -13,7 +13,8 @@ let package = Package(
     ],
     dependencies: [
         .package(path: "../DesignSystem"),
-        .package(path: "../UIComponents")
+        .package(path: "../UIComponents"),
+        .package(url: "https://github.com/SnapKit/SnapKit.git", from: "5.0.0")
     ],
     targets: [
         .target(

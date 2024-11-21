@@ -17,6 +17,12 @@
 		011E60D32C52EF8C00AA92A1 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 011E60D22C52EF8C00AA92A1 /* DesignSystem */; };
 		011E60D62C52EFA000AA92A1 /* UIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 011E60D52C52EFA000AA92A1 /* UIComponents */; };
 		011E60DB2C52F51000AA92A1 /* Calculator in Frameworks */ = {isa = PBXBuildFile; productRef = 011E60DA2C52F51000AA92A1 /* Calculator */; };
+		5D98BB3E2C93D01B00CA2F97 /* EPCleanGenericViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D98BB372C93D01B00CA2F97 /* EPCleanGenericViewWrapper.swift */; };
+		5D98BB3F2C93D01B00CA2F97 /* MockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D98BB392C93D01B00CA2F97 /* MockViewModel.swift */; };
+		5D98BB402C93D01B00CA2F97 /* viewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D98BB3B2C93D01B00CA2F97 /* viewTest.swift */; };
+		5D98BB432C93D03700CA2F97 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5D98BB422C93D03700CA2F97 /* SnapKit */; };
+		5D98BB452C93D03700CA2F97 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 5D98BB442C93D03700CA2F97 /* SnapKit-Dynamic */; };
+		5D98BB472C93D0E400CA2F97 /* EPCleanGenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D98BB462C93D0E400CA2F97 /* EPCleanGenericViewController.swift */; };
 		7218A477A34B54F6D59435B7 /* Pods_CalculatorAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 124D4A3B47B9EF27B47BB807 /* Pods_CalculatorAPPTests.framework */; };
 		A9519FE9DEED54C96E1CD1C6 /* Pods_CalculatorAPP_CalculatorAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACFFFFD6BA88E40F1CFB1AD /* Pods_CalculatorAPP_CalculatorAPPUITests.framework */; };
 		B8B43F8D394A6A803527B3B1 /* Pods_CalculatorAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8C7DFFB7D1F4EF06D2BC95 /* Pods_CalculatorAPP.framework */; };
@@ -54,6 +60,10 @@
 		1722AA5A4620DD2D41B816F5 /* Pods-CalculatorAPPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorAPPTests.release.xcconfig"; path = "Target Support Files/Pods-CalculatorAPPTests/Pods-CalculatorAPPTests.release.xcconfig"; sourceTree = "<group>"; };
 		45E3AF5A7CF3B7B0714EC956 /* Pods-CalculatorAPP-CalculatorAPPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorAPP-CalculatorAPPUITests.debug.xcconfig"; path = "Target Support Files/Pods-CalculatorAPP-CalculatorAPPUITests/Pods-CalculatorAPP-CalculatorAPPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		48F50324C8D7077D160136A0 /* Pods-CalculatorAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorAPP.release.xcconfig"; path = "Target Support Files/Pods-CalculatorAPP/Pods-CalculatorAPP.release.xcconfig"; sourceTree = "<group>"; };
+		5D98BB372C93D01B00CA2F97 /* EPCleanGenericViewWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPCleanGenericViewWrapper.swift; sourceTree = "<group>"; };
+		5D98BB392C93D01B00CA2F97 /* MockViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockViewModel.swift; sourceTree = "<group>"; };
+		5D98BB3B2C93D01B00CA2F97 /* viewTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewTest.swift; sourceTree = "<group>"; };
+		5D98BB462C93D0E400CA2F97 /* EPCleanGenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPCleanGenericViewController.swift; sourceTree = "<group>"; };
 		7ACFFFFD6BA88E40F1CFB1AD /* Pods_CalculatorAPP_CalculatorAPPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalculatorAPP_CalculatorAPPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		838DE0325D8545A79ADB5399 /* Pods-CalculatorAPPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorAPPTests.debug.xcconfig"; path = "Target Support Files/Pods-CalculatorAPPTests/Pods-CalculatorAPPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B39BEC1E2264522E7C12329 /* Pods-CalculatorAPP-CalculatorAPPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalculatorAPP-CalculatorAPPUITests.release.xcconfig"; path = "Target Support Files/Pods-CalculatorAPP-CalculatorAPPUITests/Pods-CalculatorAPP-CalculatorAPPUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +80,8 @@
 				011E60D62C52EFA000AA92A1 /* UIComponents in Frameworks */,
 				011E60D32C52EF8C00AA92A1 /* DesignSystem in Frameworks */,
 				B8B43F8D394A6A803527B3B1 /* Pods_CalculatorAPP.framework in Frameworks */,
+				5D98BB432C93D03700CA2F97 /* SnapKit in Frameworks */,
+				5D98BB452C93D03700CA2F97 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +165,7 @@
 		011E60C22C52EE1A00AA92A1 /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				5D98BB3D2C93D01B00CA2F97 /* Test */,
 				011E60C32C52EE2D00AA92A1 /* Main */,
 			);
 			path = Feature;
@@ -177,6 +190,41 @@
 				1722AA5A4620DD2D41B816F5 /* Pods-CalculatorAPPTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D98BB382C93D01B00CA2F97 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D98BB372C93D01B00CA2F97 /* EPCleanGenericViewWrapper.swift */,
+				5D98BB462C93D0E400CA2F97 /* EPCleanGenericViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5D98BB3A2C93D01B00CA2F97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D98BB392C93D01B00CA2F97 /* MockViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D98BB3C2C93D01B00CA2F97 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5D98BB3B2C93D01B00CA2F97 /* viewTest.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5D98BB3D2C93D01B00CA2F97 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				5D98BB382C93D01B00CA2F97 /* Controllers */,
+				5D98BB3A2C93D01B00CA2F97 /* Models */,
+				5D98BB3C2C93D01B00CA2F97 /* view */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 		867DECEC9B471158BE1ABE78 /* Frameworks */ = {
@@ -210,6 +258,8 @@
 				011E60D22C52EF8C00AA92A1 /* DesignSystem */,
 				011E60D52C52EFA000AA92A1 /* UIComponents */,
 				011E60DA2C52F51000AA92A1 /* Calculator */,
+				5D98BB422C93D03700CA2F97 /* SnapKit */,
+				5D98BB442C93D03700CA2F97 /* SnapKit-Dynamic */,
 			);
 			productName = CalculatorAPP;
 			productReference = 011E60952C52ECD400AA92A1 /* CalculatorAPP.app */;
@@ -287,6 +337,7 @@
 			mainGroup = 011E608C2C52ECD400AA92A1;
 			packageReferences = (
 				011E60D92C52F51000AA92A1 /* XCLocalSwiftPackageReference "../Calculator" */,
+				5D98BB412C93D03700CA2F97 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 011E60962C52ECD400AA92A1 /* Products */;
 			projectDirPath = "";
@@ -399,6 +450,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D98BB402C93D01B00CA2F97 /* viewTest.swift in Sources */,
+				5D98BB472C93D0E400CA2F97 /* EPCleanGenericViewController.swift in Sources */,
+				5D98BB3F2C93D01B00CA2F97 /* MockViewModel.swift in Sources */,
+				5D98BB3E2C93D01B00CA2F97 /* EPCleanGenericViewWrapper.swift in Sources */,
 				011E609B2C52ECD400AA92A1 /* ContentView.swift in Sources */,
 				011E60992C52ECD400AA92A1 /* CalculatorAPPApp.swift in Sources */,
 			);
@@ -740,6 +795,17 @@
 		};
 /* End XCLocalSwiftPackageReference section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		5D98BB412C93D03700CA2F97 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		011E60D22C52EF8C00AA92A1 /* DesignSystem */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -752,6 +818,16 @@
 		011E60DA2C52F51000AA92A1 /* Calculator */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Calculator;
+		};
+		5D98BB422C93D03700CA2F97 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D98BB412C93D03700CA2F97 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		5D98BB442C93D03700CA2F97 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D98BB412C93D03700CA2F97 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
